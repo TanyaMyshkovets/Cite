@@ -1,0 +1,520 @@
+body {
+    font-family: 'Comfortaa';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 162px;
+    background-color: #FCD3CD;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1125px;
+
+}
+
+.header__nav {
+    display: flex;
+    gap: 102px;
+    margin-top: 17px;
+}
+
+.header__nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+.header__nav-link:first-child {
+    margin-top: 21px;
+    margin-left: 52px;
+}
+
+.header__nav-link:nth-child(even) {
+    margin-top: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.user {
+    display: flex;
+    justify-content: end;
+    margin-top: 31px;
+    margin-left: 178px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-btn {
+    width: 60px;
+    height: 50px;
+    display: none;
+}
+
+.menu-btn span {
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #000000;
+
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+}
+
+.about {
+    padding-top: 66px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.information {
+    background: url(../images/onas.png) center no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.btn {
+    font-family: 'Comfortaa';
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    padding: 31px 17px;
+    background: #FCD3CD;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #F8E2C2;
+
+}
+
+
+.colectiv {
+    padding-top: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 55px;
+}
+
+.colectiv p {
+    max-width: 490px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: left;
+}
+
+.colectiv p:nth-child(3) {
+    margin-left: 350px;
+}
+
+.colectiv__img {
+    transform: rotate(-5deg);
+    border-radius:20px;
+    margin-bottom: 102px;
+    margin-left: 122px;
+    max-width: 401px;
+    width: 401px;
+    max-height: 426px;
+    height: 426px;
+}
+
+.colectiv2__img{
+    transform: rotate(10deg);
+    border-radius:20px;
+    max-width: 380px;
+    width: 380px;
+    max-height: 395px;
+    height: 395px;
+}
+
+.cafe h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 86px;
+    padding-top: 87px;
+}
+
+.cafe__gallery {
+    display: flex;
+    justify-content: center;
+    gap: 264px;
+}
+
+.cafe__img {
+    max-width: 460px;
+    width: 460px;
+    max-height: 400px;
+    height: 400px;
+}
+
+.contacts {
+    padding-top: 136px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.contacts p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacts h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 136px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+
+}
+
+.map {
+    padding-top: 148px;
+    
+}
+
+.map h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.adres{
+    width: 100%;
+    height: 582px;
+}
+
+.footer {
+    margin-top: 276px;
+    width: 100%;
+    background-color: #EC988C;
+    padding-top: 167px;
+
+}
+
+.footer__iner-info {
+
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 40px;
+    line-height: 100%;
+    max-width: 1187px;
+    text-align: center;
+    max-height: 240px;
+}
+
+
+.footer__iner__nav {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 154px;
+
+}
+
+.footer__nav-link {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    line-height: 40px;
+
+}
+
+.footer__icons {
+    padding-top: 80px;
+    padding-bottom: 214px;
+    display: flex;
+    justify-content: end;
+    gap: 28px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1025px) and (max-width:1439px) {
+
+    .header__nav-link:first-child {
+        margin-left: 10px;
+    }
+
+    .header__nav {
+        gap: 30px;
+        margin-left: 20px;
+    }
+
+    .header__nav-link {
+        font-size: 28px;
+    }
+
+    .header__inner {
+        justify-content: center;
+
+    }
+
+    .user {
+        margin-left: 30px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .header__nav-link:first-child {
+        margin-left: 10px;
+    }
+
+    .header__nav {
+        gap: 30px;
+    }
+
+    .header__nav-link {
+        font-size: 28px;
+    }
+
+    .header__inner {
+        justify-content: center;
+
+    }
+
+    .user {
+        margin-left: 30px;
+    }
+    .colectiv {
+
+        padding: 50px;
+    }
+
+    .contacts p {
+        font-size: 36px;
+    }
+
+    .contacts h2 {
+        font-size: 36px;
+    }
+
+    .btn {
+        white-space: nowrap;
+
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .user {
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+    .logo {
+        max-width: 200px;
+        width: 100%;
+        max-height: 100px;
+        width: 100%;
+    }
+
+    .cafe__gallery {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .cafe__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .map h2 {
+        font-size: 32px;
+    }
+
+    .footer__nav {
+        gap: 70px;
+    }
+
+    .footer__iner-info {
+
+        padding: 10px;
+        font-size: 28px;
+
+    }
+
+    .footer__nav-link {
+
+        font-size: 24px;
+
+
+    }
+
+    .footer__icons {
+
+        justify-content: center;
+        gap: 18px;
+
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .header__inner {
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .header__nav-link:first-child {
+        display: none;
+    }
+
+    .header__nav-link:nth-child(even) {
+        display: none;
+    }
+
+    .colectiv {
+
+        padding: 50px;
+    }
+
+    .colectiv p {
+        font-size: 24px;
+    }
+
+    .colectiv p:nth-child(3) {
+        margin-left: 0px;
+    }
+
+    .colectiv__img:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .colectiv__img {
+        width: 250px;
+        height: 250px;
+    }
+    .colectiv2__img {
+        width: 250px;
+        height: 250px;
+    }
+    .contacts p {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .contacts h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        white-space: nowrap;
+
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        max-width: 180px;
+        width: 100%;
+        max-height: 90px;
+        width: 100%;
+    }
+    .user {
+        display: none;
+    }
+
+    .cafe__gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .cafe__img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .map h2 {
+        font-size: 16px;
+    }
+
+    .menu-btn {
+        display: block;
+        padding-top: 60px;
+        padding-right: 15px;
+    }
+
+    .footer__iner-info {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .footer__nav {
+        max-width: 376px;
+        gap: 15px;
+        white-space: nowrap;
+    }
+
+    .footer__nav-link {
+        font-size: 16px;
+    }
+
+    .footer__icons {
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .content__decoration {
+
+        position: absolute;
+        top: 5300px;
+
+    }
+}
+
